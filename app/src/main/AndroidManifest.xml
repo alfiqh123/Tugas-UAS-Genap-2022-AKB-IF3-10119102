@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tugas_uas_genap_2022_akb_if3_10119102">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tugas UTS Genap 2022 AKB if3 10119102"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TugasUASGenap2022AKBif310119102">
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="Register"
+            android:theme="@style/apptheme.NoActionBar"/>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="Login"
+            android:theme="@style/apptheme.NoActionBar" />
+        <activity
+            android:name=".ActivityHome"
+            android:exported="false"
+            android:label="Home Screen"
+            android:theme="@style/apptheme.NoActionBar" />
+        <activity
+            android:name=".ui.daily.EditDiaryActivity"
+            android:exported="false"
+            android:theme="@style/apptheme.NoActionBar" />
+        <activity
+            android:name=".ui.daily.CreateDiaryActivity"
+            android:exported="false"
+            android:theme="@style/apptheme.NoActionBar" />
+        <activity
+            android:name=".ActivityWelcomeDialog"
+            android:exported="false"
+            android:theme="@style/apptheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySplashScreen"
+            android:exported="true"
+            android:theme="@style/apptheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
